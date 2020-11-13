@@ -4,6 +4,16 @@
 	box-sizing: border-box;
 }
 
+/* new 這樣container才會變100% (不用用100vh)*/
+html {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+/* new */
+
+
 body {
 	width: 100%;
 	height: 100%;
@@ -12,6 +22,7 @@ body {
 	font: 2.4vh/3.6vh serif;
 }
 
+/* 之前 container 100%不會滿版 是因為html沒有設定height 100% */
 div#container { /*只對名為container的div有影響*/
 	height: 100vh;
 	width: 70%;
