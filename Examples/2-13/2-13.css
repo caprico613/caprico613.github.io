@@ -1,0 +1,82 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y:	auto;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 2.4vh;
+	font-family: serif;
+	line-height: 3.6vh;
+	padding: 0 2vw;
+}
+
+h1 {
+	font-size: 4.8vh;
+	line-height: 7.2vh;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 3.6vh;
+	line-height: 5.4vh;
+	font-style: italic;
+}
+
+section {
+	margin: 1vh 0;
+}
+
+p {
+	margin: 0.5vh 0;
+}
+
+/* pseudo element with two colon*/
+/* pseudo class with one colon*/
+p::first-letter {
+	font-size: 2.8vh;
+	font-weight: bold;
+}
+
+h2 ~ p { /* 跟h2同階層後面的p (siblings) */
+
+}
+
+/* BWD網頁: Priority/Specificity */
+
+article p { /* 所有article裡面的p (不只是 immediate child) */
+	
+}
+
+article > p { /* immediate child */
+	
+}
+
+h1 + p { /* h1同階層後一個的p */
+	font-size: 3.2vh;
+	line-height: 4.8vh;
+	font-family: sans-serif;	
+}
+
+section  p { /* section裡面的p */
+	font-family: sans-serif;
+}
+
+
+/* not recommended
+p#summary {
+	font-size: 3.2vh;
+	line-height: 4.8vh;
+	font-family: sans-serif;
+}
+*/
