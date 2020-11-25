@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 html {
@@ -36,16 +37,26 @@ nav {
 }
 
 
+nav > div {
+	padding: 1vh 0;
+	color: black;
+	text-align: center;
+}
+
 nav > div:hover { /* 滑鼠 */
 	background-color: #c0e4f0;
-	color: black;
 	border-bottom: 4px solid red;
 }
 
-nav > div {
-	padding: 1vh 0;
-	text-align: center;
+
+a {
+	color: black;
 }
+
+nav > div:hover > a { /* 滑鼠 */
+	color: purple;
+}
+
 
 div.inline-block {
 	display: inline-block;
@@ -82,3 +93,4 @@ p {
 ol {
 	padding-left: 60px;
 }
+
