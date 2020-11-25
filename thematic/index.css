@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Tinos&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y:	auto;
+}
+
+body {
+	font-family: serif;
+	font-style: normal;
+	font-weight: 400;	/*字體本身胖瘦*/
+	font-size: 2.4vh;
+	line-height: 3.6vh;	/*行高*/
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	/*font: normal small-caps 400 2.4vh/3.6vh serif;*/
+}
+
+li.inline-block {
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: 0px;
+	left: 50vw;
+	margin-left: 10px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+
+div.title_div {
+	position: relative;
+	height:30vh;
+  	width: 20%;
+    text-align: center; 
+    border-right: 4px solid red; 
+	font-weight: bold; 
+	line-height: 30vh;
+	font-size: 6vh;
+}

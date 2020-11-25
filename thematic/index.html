@@ -3,8 +3,39 @@
 	<head>
 		<title>Thematic</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="index.js"></script>
 	</head>
 	<body>
-		<p>我想做的網頁是我的個人旅行地圖，目標觀看對象為與我一同出遊過的人，且為年輕一輩(因為不想將太多景點資訊導入到網頁中)，所以適合一起出去玩過的朋友，分為去過與沒去過的地點，在已玩過的地點，會寫入個人短評與簡短tag(tag的目的為方便搜尋同系列景點。Ex: interesting可以搜尋到該地點一樣的tag)，並且以顏色區分我對景點的等級排名(灰階代表最後一名：是個景點，但是真的很閒再去的程度)，</p>
+		<nav style="position: relative; width: 100%; height: 10%; background-color: black;">
+			<li class = "inline-block">About</li>
+			<li class = "inline-block">Project</li>
+			<li class = "inline-block">Memory</li>
+			<li class = "inline-block">Contact</li>
+		</nav>
+		<div style=" position: relative; width: 100%; height: 90%;">
+			<img src="./pictures/forest.png" style="position: absolute; z-index:-1; width: 100%; height: 100%;">
+			
+			<img src="./pictures/main.jpg" style="display: block; position: relative; width: 85%; height: 85%; background-color: red; margin-left: 7.5%; top: 30px;">
+			<a href="#move1" style="position: relative; margin-left: 80%;"><img src="./pictures/more.png" style="position: relative; height: 95px; width: 240px;"></a>
+		</div>
+		<a name="move1"></a>
+		<div style="width: 90%; height: 30%; background-color: cyan; margin-left: auto; margin-right: auto; margin-top: 40px;">
+			<div class="title_div" style="background-color: purple;">Project</div>
+		</div>
+		<div style="width: 90%; height: 30%; background-color: blue; margin-left: auto; margin-right: auto; margin-top: 40px;">
+			<div class="title_div" style="background-color: green;">Memory</div>
+		</div>
+		<div style="position: relative; width: 100%; height: 45%; background-color: black; margin-top: 70px;">
+			<div style="position: absolute; color: white; background-color: #747373; height: 100%; width: 70%; text-align: center;">
+				<p style=" font-weight: bold; font-size: 6vh; padding: 80px 25px; line-height: 12vh;">"FLY into sky, <br/>and search the beautiful world!"</p>
+			</div>
+			<div style="position: absolute; right: 0px; background-color: #f3f2f2; height: 100%; width: 30%;">
+				<img src="pictures/Samoyed.jpg" style="height: 200px; width: 320px; margin-top: 20px; margin-left: 35px;" >
+				<li style="margin-left: 35px;">Name: Hou, YonGjun</li>
+				<li style="margin-left: 35px;">Phone: 0972-710-329</li>
+				<li style="margin-left: 35px;">Mail: caprico613@gmail.com</li>
+			</div>
+		</div>
 	</body>
 </html>

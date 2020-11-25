@@ -37,8 +37,8 @@ nav {
 
 
 nav > div:hover { /* 滑鼠 */
-	background-color: white;
-	color: purple;
+	background-color: #c0e4f0;
+	color: black;
 	border-bottom: 4px solid red;
 }
 
