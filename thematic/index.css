@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 html {
@@ -49,4 +50,8 @@ div.title_div {
 	font-weight: bold; 
 	line-height: 30vh;
 	font-size: 6vh;
+}
+
+div > li {
+	margin-left: 35px;
 }
