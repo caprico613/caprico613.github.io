@@ -6,9 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
-		<nav style="position: relative; width: 100%; height: 250px; background-color: #90ff51; text-align: center;">
+		<nav style="position: relative; width: 100%; height: 250px; background-color: #c8e3c8; text-align: center;">
 			<img src="pictures/plane.png" style="height: 200px; position: relative; left: -15%">
-			<h1 style="display: inline-block; position: absolute; font-size: 20vh; top: 70px; left: 45%;">Chris</h1>
+			<h1 style="display: inline-block; position: absolute; font-size: 20vh; top: 70px; left: 45%; color: #828a81;">Chris</h1>
 			<br/>
 			<div class = "inline-block"><a href="./index.html">Home page</a></div>
 			<div class = "inline-block"><a href="./index1.html">Research</a></div>
@@ -21,6 +21,7 @@
 			<p>In this topic on implementation, we want to design a modular robot that can adapt to various environments. Genetic algorithm (GA) is applied to find the optimal parameters of the motors of the modular robot. Genetic algorithm is an evolutionary algorithm, which is inspired by biological evolution mechanisms, such as crossover, reproduction, and mutation. Through a similar mechanism, genetic algorithm can find the most suitable genes for "survival". We use V-REP software platform to simulate the robot's behavior and interaction with the environment. Genetic algorithm is used in simulation to “evolve” the robots.</p><br/>
 			<p>In terms of the hardware, the shell and the structure of the robot are made with 3D printer. In the process of moving, modular robots can sense external environment with an ultrasonic sensor. Arduino works as the “brain” of each module and controls movements of the robot. In order to allow each module to communicate with each other while in action, we use Raspberry Pi as a communication bridge and connect to Bluetooth modules for message transmission via Python.</p><br/>
 			<p>In the end, our modular robot is composed of three modules. They have the ability to crawl and climb stairs. Furthermore, they can change the action mode by sensing the external environment with ultrasonic sensors. We hope that in the future, modular robots can replace human beings in some cases, such as the exploration of disaster sites and the investigation of dangerous areas, etc. In this way, they can bring a safer life to humans.</p>
+			<br/>
 		</section>
 		<section style="padding: 20px 20px; background-color: #f3f2f2; padding-bottom:80px;">
 			<h1 style="color: black;">摘要</h1>
@@ -29,9 +30,7 @@
 			以適應不同環境。</p><br/>
 			<p>在這個專題中,我們想要設計出能夠適應各種環境的模組機器人。使用基因演算法
 			尋找模組機器人的馬達最佳參數。基因演算法為進化演算法的一種,進化演算法啟發自生物學的演化機制,如:交配、
-			繁殖和突變等的演化過程。基因演算法透過類似的機制找出最適合「生存」的基因。我
-			們軟體上藉由 V-REP 平台模擬機器人的行為和與環境的互動,並導入基因演算法找出能
-			夠完成期望目標的最佳參數。</p><br/>
+			繁殖和突變等的演化過程。基因演算法透過類似的機制找出最適合「生存」的基因。我們軟體上藉由 V-REP 平台模擬機器人的行為和與環境的互動,並導入基因演算法找出能夠完成期望目標的最佳參數。</p><br/>
 			<p>而在硬體部分,藉由3D 列印製作機器人的外殼與結構,以 Arduino 作為各個模組
 			的「大腦」,配合超聲波感測器感知外界環境,控制機器人的動作。為了讓各個模組在
 			行動時能夠互相溝通,我們以 Raspberry Pi 作為通訊橋梁,利用 Python 連接藍芽模組
