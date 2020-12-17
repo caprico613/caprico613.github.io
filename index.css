@@ -71,7 +71,7 @@ div.inline-block {
 	font-weight: bold;
 }
 
-article {
+div > article {
 	background-color: white;
 	color: white;
 	margin: 20px 0;
