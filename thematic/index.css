@@ -71,3 +71,19 @@ section > svg:not(:first-child) {
 	bottom: 0; 
 	position: absolute;
 }
+
+section > div > a > img {
+	opacity: 0.5;
+	max-width: 44.7vw;
+	display: inline;
+}
+
+div > h2 {
+	position: absolute; 
+	z-index: 2; 
+	font-size: 10vh;
+}
+
+section > div > li {
+	margin-left: calc(45vw + 20px);
+} 

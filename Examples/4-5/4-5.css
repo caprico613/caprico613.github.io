@@ -18,8 +18,10 @@ nav > div {
 	height: 30px;
 	padding: 0 3px;
 	line-height: 30px;
-	background-color: red;
-	color: white;
+	background-color: red;	/*不可被繼承*/
+	color: white;			/*可被繼承*/
+	text-align: center; 	/*可被繼承*/
+	vertical-align: text-top;	/*文字在上面對齊*/
 }
 
 nav > div:hover {
@@ -28,3 +30,20 @@ nav > div:hover {
 	background-color: white;
 	color: red;
 }
+
+nav > div > div {
+	display: none;
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+	margin: 0 -3px;
+}
+
+/*Pure hovering effect*/
+
+/*
+nav > div:hover > div {
+	display: block;
+};
+
+*/
