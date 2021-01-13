@@ -75,7 +75,7 @@ section > svg:not(:first-child) {
 section > div > a > img {
 	opacity: 0.5;
 	max-width: 44.7vw;
-	display: inline;
+
 }
 
 div > h2 {
@@ -102,3 +102,4 @@ article > section > div {
 	display:inline-block;
 	font-size: 3.6vh;
 }
+
