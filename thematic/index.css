@@ -103,3 +103,6 @@ article > section > div {
 	font-size: 3.6vh;
 }
 
+section > section > div > h1 {
+	font-size: 6vh; margin-bottom: 20px;
+}

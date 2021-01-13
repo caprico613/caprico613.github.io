@@ -18,7 +18,7 @@ body {
 	font-family: serif;
 	font-style: normal;
 	font-weight: 400;	/*字體本身胖瘦*/
-	font-size: 2.4vh;
+	font-size: 2.5vh;
 	line-height: 3.6vh;	/*行高*/
 	height: 100%;
 	width: 100%;
@@ -96,3 +96,10 @@ ol {
 	padding-left: 60px;
 }
 
+section > p {
+	padding: 0 20px;
+}
+
+hr {
+	margin-bottom: 10px;
+}
