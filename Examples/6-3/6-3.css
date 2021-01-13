@@ -1,0 +1,21 @@
+div {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+div > div {
+	position: relative;
+	z-index: -1;
+	left: 0; /*跟上一層距離上一層寬度的100%*/
+	width: 100px;
+	background-color: orange;
+	opacity: 0;
+}
+
+div:hover > div { /*由淺而深 並且 由左至右*/
+	opacity: 1;
+	left: 100%;
+	transition: all .5s linear;
+}

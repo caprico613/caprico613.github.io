@@ -1,0 +1,28 @@
+div {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin: 5px 0;
+	transition: all 1s linear;
+}
+
+div:nth-of-type(1):hover {
+	background-color: orange;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s linear;
+}
+
+div:nth-of-type(2):hover {
+	background-color: purple;
+	width: 150px;
+	height: 150px;
+	transition: all 0.5s cubic-bezier(.45,1.76,.49,-0.93);	/*起初慢，收尾快*/
+}
+
+div:nth-of-type(3):hover {
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease-out, width 4s linear, height 10s linear;	/*起初變化快，最後比較慢*/
+}

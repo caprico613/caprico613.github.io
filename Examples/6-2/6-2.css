@@ -1,0 +1,22 @@
+div {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+div > div {
+	position: relative;
+	left: 100%; /*跟上一層距離上一層寬度的100%*/
+	width: 0;
+	overflow: hidden;	/*超出範圍的為字就不見了*/
+	white-space: nowrap;	/*即使看到空白(space鍵)當長度不夠時，也不會去幫你做換行*/
+	background-color: orange;
+	/*opacity: 0;*/
+}
+
+div:hover > div {
+	/*opacity: 1;*/
+	width: 100px;
+	transition: all 5s linear;
+}

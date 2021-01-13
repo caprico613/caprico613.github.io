@@ -21,6 +21,7 @@ body {
 article {
 	display: flex;
 	height: 100%;
+	width: 100%;
 	flex-direction: column; /* 用行做排版還是列做排版，|預設是用行做排版 => 元件block連在同一個row上| */	
 	flex-wrap: wrap;	/* nowrap: 不管有多少，全部擠在同一行or列; */
 	margin: 10vh 20px;
@@ -30,13 +31,14 @@ article {
 article > section {
 	background-color: cyan;
 	text-align: center;
-	
+	padding: 10px;
 }
 
 article > section > img {
 	border-bottom: 2px solid blue;
-	height: 50px;
-	width: 50px;
+	max-width: 100px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -45,11 +47,11 @@ article > section > img {
 	}
 
 	article {
-		flex-direction: row; /* 用行做排版還是列做排版，|預設是用行做排版 => 元件block連在同一個row上| */	
+		padding: 5% 10%;
+		flex-direction: row;
 	}
 
 	article > section > img {
-		height: 100px;
-		width: 100px;	
+		max-width: 200px;	
 	}
 }
