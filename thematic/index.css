@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Heebo&display=swap');
 
 * {
 	margin: 0;
@@ -87,3 +87,18 @@ div > h2 {
 section > div > li {
 	margin-left: calc(45vw + 20px);
 } 
+
+p {
+	font-family: 'Amiri', serif;
+}
+
+h1 {
+	font-family: 'Heebo', sans-serif;
+}
+
+article > section > div {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	display:inline-block;
+	font-size: 3.6vh;
+}
