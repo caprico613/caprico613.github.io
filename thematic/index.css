@@ -27,7 +27,7 @@ body {
 	/*font: normal small-caps 400 2.4vh/3.6vh serif;*/
 }
 
-li.inline-block {
+nav > a > li {
 	display: inline-block;
 	height: 50px;
 	width: 150px;
@@ -42,17 +42,7 @@ li.inline-block {
 }
 
 
-.title_div {
-	position: relative;
-	display: inline-block;
-	height:100%;
-  	width: 20%;
-    text-align: center; 
-    border-right: 4px solid red; 
-	font-weight: bold; 
-	line-height: 100%;
-	font-size: 6vh;
-}
+
 
 div > li {
 	margin-left: 35px;

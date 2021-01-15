@@ -58,7 +58,7 @@ nav > div:hover > a { /* 滑鼠 */
 }
 
 
-div.inline-block {
+nav > div {
 	display: inline-block;
 	height: 50px;
 	width: 150px;
